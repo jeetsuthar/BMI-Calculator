@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+.heading{
+    font-family: "Lugrasimo", cursive;
+    text-align: center;
+    color: #C3C3E5;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+}
+.shortHeading{
+    display: none;
+}
+@media screen and (max-width:1188px) {
+   .heading{
+    font-size: 13px;
+   }
+}
+@media screen and (max-width:966px) {
+   .heading{
+    font-size: 12px;
+   }
+}
+@media screen and (max-width:500px) {
+    .fullHeading{
+        display: none;
+    }
+   .shortHeading{
+    display: block;
+    font-size: 20px;
+   }
+}
