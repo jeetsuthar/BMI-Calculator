@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.main {
+    width: 500px;
+    height: auto;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.input-field, .result {
+    background-color: #C3C3E5;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.BMI {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.BMI p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3D1855;
+}
+
+.BMI input {
+    width: 100%;
+    padding: 5px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid #1E0C2B;
+    border-radius: 5px;
+    outline: none;
+    color: #3D1855;
+    font-size: 16px;
+}
+
+.BMI input:focus {
+    border: 2px solid #3b1454;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 25px -5px, rgba(0, 0, 0, 0.1) 0px 10px 10px -5px;
+}
+
+.input-field button {
+    width: 45%;
+    height: 35px;
+    margin: 10px 5px 0 0 ;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #3D1855;
+    color: #C3C3E5;
+}
+.input-field button:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    opacity: 0.9;
+}
+.result{
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.tagLine{
+    color: #3D1855;
+    font-weight: 500;
+    word-spacing: 2px;
+}
